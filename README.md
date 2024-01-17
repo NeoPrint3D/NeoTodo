@@ -1,15 +1,14 @@
 ![Screenshot_20240116_203814](https://github.com/NeoPrint3D/NeoTodo/assets/77029802/3a5332b8-8049-4b74-9fde-3dfd74f4f223)
 
-
 # NeoTodo
 
 This is a simple todo app built with Tauri.
 
 ## Download
 
-- [Windows]()
-- [MacOS]()
-- [Linux]()
+- [Windows](https://github.com/NeoPrint3D/NeoTodo/releases/)
+- [MacOS](https://github.com/NeoPrint3D/NeoTodo/releases/)
+- [Linux](https://github.com/NeoPrint3D/NeoTodo/releases/)
 
 ## Features
 
