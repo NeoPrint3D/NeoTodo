@@ -1,3 +1,5 @@
+file:///tmp/Spectacle.HdPzHF/Screenshot_20240116_203814.png
+
 # NeoTodo
 
 This is a simple todo app built with Tauri.
