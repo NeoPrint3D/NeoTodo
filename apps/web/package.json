@@ -1,0 +1,20 @@
+{
+  "name": "web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev -p 3001",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "pages:dev": "wrangler pages dev --compatibility-date=2023-12-18 --proxy 3001 -- bun run dev",
+    "pages:deploy": "bun run build && wrangler pages deploy ./dist"
+  },
+  "devDependencies": {
+    "nuxt": "^3.9.1",
+    "vue": "^3.4.10",
+    "vue-router": "^4.2.5",
+    "wrangler": "^3.22.5"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "build": {
+    "beforeBuildCommand": "npm run build:web",
+    "beforeDevCommand": "npm run dev:web",
+    "devPath": "http://localhost:3000",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "NeoTodo",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": false,
+      "dialog": {
+        "all": false,
+        "ask": false,
+        "confirm": true,
+        "message": true,
+        "open": false,
+        "save": false
+      }
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "NeoPrint3D LLC",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png",
+        "icons/icon.icns",
+        "icons/icon.ico"
+      ],
+      "identifier": "com.neotodo.dev",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "NeoTodo is a todo app to help you get things done.",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {},
+    "updater": {
+      "active": true,
+      "dialog": true,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDMyQUEwODAxREE0MjFFNUUKUldSZUhrTGFBUWlxTXZyNkxqTUduWGdoQmN3WFova3ZXd3o3WjB6NHVQdTJhVDJqVU9RRzlNUlIK",
+      "endpoints": []
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "NeoTodo",
+        "width": 800
+      }
+    ]
+  }
+}

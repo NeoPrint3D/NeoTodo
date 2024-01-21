@@ -2,6 +2,8 @@
 
 This is a simple todo app built with Tauri.
 
+![Thumbnail](assets/thumb.png)
+
 ## Download
 
 - [Windows](https://github.com/NeoPrint3D/NeoTodo/releases/)
