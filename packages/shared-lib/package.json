@@ -1,0 +1,7 @@
+{
+  "name": "shared-lib",
+  "main": "index.ts",
+  "dependencies": {
+    "typescript": "5.3.3"
+  }
+}
