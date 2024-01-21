@@ -55,12 +55,6 @@
       }
     },
     "security": {},
-    "updater": {
-      "active": true,
-      "dialog": true,
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDMyQUEwODAxREE0MjFFNUUKUldSZUhrTGFBUWlxTXZyNkxqTUduWGdoQmN3WFova3ZXd3o3WjB6NHVQdTJhVDJqVU9RRzlNUlIK",
-      "endpoints": []
-    },
     "windows": [
       {
         "fullscreen": false,
