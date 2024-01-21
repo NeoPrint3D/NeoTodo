@@ -64,9 +64,6 @@
             <Icon
               :name="todoInfo.showActive ? 'fe:arrow-up' : 'fe:arrow-down'"
             />
-            <Icon
-              :name="todoInfo.showActive ? 'fe:arrow-up' : 'fe:arrow-down'"
-            />
           </button>
           <ul class="flex flex-col gap-3" v-if="todoInfo.showActive">
             <li
